@@ -1,0 +1,6 @@
+#Right angled traingle pattern print
+n=int(input("Enter the number of Line in the Pattern:"))
+for i in range(0,n+1):
+    for j in range (0,i):
+        print("* ", end=" ")
+    print(" ")
